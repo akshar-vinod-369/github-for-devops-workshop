@@ -1,4 +1,9 @@
-Hey There my Boy How are you ,doing 
+#!/bin/bash
 
-
-Is there any Work to do with you , or are you Free today ?..
+# Check the status of the service
+service=myservice
+if systemctl is-active --quiet $service; then
+    echo "$service is running."
+else
+    echo "$service is not running."
+fi
