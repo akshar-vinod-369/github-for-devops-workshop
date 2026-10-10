@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+
+<body>
+
+<h1>Welcome to Attari Classes</h1>
+
+<p>This website is deployed on Azure Static Web App.</p>
+
+</body>
+
+</html>
+
